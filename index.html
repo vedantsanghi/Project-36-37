@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Let's Paint</title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script stc ="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"> </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    
+   
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCHrJbC1HQtnqcf-yxbSs6q8jKWy5kDyms",
+    authDomain: "project-36-714f9.firebaseapp.com",
+    databaseURL: "https://project-36-714f9.firebaseio.com",
+    projectId: "project-36-714f9",
+    storageBucket: "project-36-714f9.appspot.com",
+    messagingSenderId: "1080597772951",
+    appId: "1:1080597772951:web:5013450582a7e9c5d3c7d2"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <div id = "canvascontainer"></div>
+    <p>
+    <button id= "saveButton">save</button>
+    <button id= "clearButton">clear</button>
+
+    </p>
+  
+      <ol id = "drawinglist"></ol>
+    </ol>
+    <script src="sketch.js"></script>
+  </body>
+</html>
